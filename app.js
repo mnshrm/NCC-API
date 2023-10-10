@@ -4,7 +4,7 @@ const app = express();
 
 app.use("/", express.static("public"));
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server started at port 5000");
 });
 
