@@ -8,6 +8,6 @@ app.use("", (req, res, next) => {
   res.redirect("error/error.html");
 });
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server started at port 5000");
 });
