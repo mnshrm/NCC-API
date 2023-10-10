@@ -25,6 +25,7 @@ class loadingScreen extends HTMLElement {
       }
       
       #loading-text {
+        background-color:black;
         user-select:none;
         font-weight: bold;
         font-size: 48px;
