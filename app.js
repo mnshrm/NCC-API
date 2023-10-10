@@ -11,3 +11,5 @@ app.use("", (req, res, next) => {
 app.listen(process.env.PORT, () => {
   console.log("Server started at port 5000");
 });
+
+module.exports = app;
