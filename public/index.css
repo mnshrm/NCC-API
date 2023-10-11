@@ -1,0 +1,617 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+/*HEADER*/
+
+.greenh {
+  font-family: "Teko", sans-serif;
+  color: #1f4941;
+}
+.yellowh {
+  font-family: "Teko", sans-serif;
+  color: #ffaf00;
+}
+#navbar {
+  height: 50px;
+  color: #ffffff;
+  background-color: #080808;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 2;
+  padding: 0 5%;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#nav a h4 {
+  color: #ffffff;
+  padding: 1px 1px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#nav a {
+  text-decoration: none;
+}
+#navbar #logo a {
+  all: unset;
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+#nav button {
+  background-color: #33942a;
+  color: #f1efef;
+  padding: 5px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 18px;
+  border: none;
+}
+#imgp1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+#page1 {
+  position: relative;
+  background-image: url("./Assests/photo/main photo.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 5%;
+  height: 70vh;
+}
+
+#hp1 {
+  width: 100%;
+}
+#empty {
+  height: 12%;
+  width: 100%;
+  background-color: #ffaf00;
+}
+#hp1 h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 110px;
+  font-weight: 800;
+  color: #ffaf00;
+  line-height: 0.9;
+}
+
+/*PAGE2*/
+
+#page2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  gap: 10px;
+}
+
+#page2 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 0.9;
+}
+#page2 p {
+  width: 40vw;
+  font-size: 20px;
+}
+
+#page2 img {
+  width: 45vw;
+  border-radius: 14px;
+}
+
+/*OUR PLEDGE*/
+
+#page4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3% 5%;
+}
+
+#page4h h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#page4h p {
+  width: 46vw;
+  font-size: 20px;
+}
+
+#page4 img {
+  width: 35vw;
+  border-radius: 14px;
+}
+
+/*RANK PANEL*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,150;0,150;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,150;1,150;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,150;0,150;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,150;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#page6 {
+  padding: 1% 5%;
+}
+.rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 60px;
+  height: 15vh;
+}
+.contain {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#frame {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  width: 150px;
+  text-align: center;
+}
+
+.box a {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-grid;
+  border-radius: 5px;
+  text-decoration-line: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box a span {
+  border: 2px solid #1f4941;
+  border-radius: 5px;
+  color: black;
+  padding: 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.box span:hover {
+  letter-spacing: 2px;
+}
+.box a:hover {
+  letter-spacing: 2px;
+}
+.box a:hover {
+  background: hsl(41, 77%, 61%);
+  color: #000;
+  border: 3px solid #1f4941;
+  box-shadow: 0 0 35px var(--clr);
+  transform: scale(1.2);
+}
+
+p {
+  color: #000;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  font-weight: 800;
+}
+.box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px !important;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/*EVENTS*/
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background: rgba(0, 0, 0, 1);
+  padding: 2% 8% 3%;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 175, 0, 1);
+  font-family: "Teko", sans-serif;
+}
+
+.collage {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+  margin: 0.3rem;
+  height: 100%;
+  width: 100%;
+}
+
+.first .img-parent:first-child {
+  flex: 8;
+  margin-bottom: 0.7rem;
+}
+
+.first .img-parent:last-child {
+  flex: 6;
+}
+
+.second .img-parent:first-child {
+  flex: 6;
+  margin-bottom: 0.5rem;
+}
+
+.second .img-parent:last-child {
+  flex: 8;
+}
+
+.third .img-parent:first-child {
+  flex: 5;
+  margin-bottom: 0.5rem;
+}
+
+.third .img-parent:last-child {
+  flex: 5;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  margin: 0.1rem 0;
+  transition: all 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-parent:hover .img-container,
+.img-parent:focus .img-container {
+  transform: scale(1.2);
+}
+
+.img-parent:hover .img-container .cover-text,
+.img-parent:focus .img-container .cover-text {
+  height: 100%;
+}
+
+.img-parent {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.one {
+  background-image: url("images/one.png");
+  position: relative;
+}
+
+.two {
+  background-image: url("images/two.png");
+  position: relative;
+}
+
+.three {
+  background-image: url("images/third.png");
+  position: relative;
+}
+
+.four {
+  background-image: url("images/four.png");
+  position: relative;
+}
+
+.five {
+  background-image: url("images/five.png");
+  position: relative;
+}
+
+.six {
+  background-image: url("images/third.png");
+}
+
+.cover-text {
+  font-family: "Teko", sans-serif;
+  height: 25%;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  z-index: 3;
+  color: white;
+  width: 100%;
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.48);
+}
+
+/*AIMS OF NCC*/
+#page3 {
+  height: 80vh;
+  font-family: "Teko", sans-serif;
+}
+.division {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 5%;
+  height: 100%;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  width: 65%;
+}
+
+.elem {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 80%;
+  width: 50%;
+}
+
+#background h1 {
+  font-size: 100px;
+  font-weight: 700;
+  align-items: center;
+  font-family: "Teko", sans-serif;
+}
+
+#elem1 {
+  background-image: url("images/divyanshi.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#elem2 {
+  background-image: url("images/mount.jpg");
+  background-position: center;
+  background-clip: content-box;
+}
+#elem3 {
+  background-image: url("images/naman.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.forst {
+  margin: 0px;
+  color: whitesmoke;
+  position: relative;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  padding: 6px;
+  background: rgb(27, 27, 27, 0.5);
+  bottom: -80%;
+  transition: 0.35s;
+}
+.forst h1 {
+  margin: 10px;
+  font-size: 20px;
+  position: relative;
+}
+.forst p {
+  font-size: 19px;
+  margin: 25px;
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  color: white;
+}
+.elem:hover {
+  cursor: pointer;
+}
+.elem:hover .forst {
+  height: 250px;
+  bottom: -25%;
+  background: rgb(27, 27, 27, 0.32);
+}
+.elem:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+.elem:hover img {
+  transform: scale(1.075) rotate(-1.5deg);
+}
+body {
+  font-family: "Teko", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.label {
+  width: 100vw;
+  height: 10vh;
+}
+
+.label .PHOTO-GALLERY {
+  top: 0;
+  left: 0;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  color: transparent;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  justify-content: center;
+  width: 100vw;
+  display: flex;
+}
+
+.label .text-wrapper {
+  color: #1f4941;
+  font-family: "Teko", sans-serif;
+}
+
+.label .span {
+  color: #ffaf00;
+  font-family: "Teko", sans-serif;
+}
+
+.home-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.home-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.main-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-gallery .photo {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-gallery .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  transition: transform 0.3s;
+}
+
+.main-gallery .photo:hover img {
+  transform: scale(1.1);
+}
+.page7 {
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+/* ... (Previous styles remain the same) ... */
+
+.main-gallery .photo img.active {
+  transform: scale(1.1);
+}
+
+/* ... (Additional styles for animations, if needed) ... */
+
+.outerbox2 {
+  width: 300px;
+  height: 390px;
+  flex-shrink: 0;
+  background-color: rgb(213, 211, 211);
+  transform: rotate(3deg);
+  position: absolute;
+}
+.outerbox {
+  height: 390px;
+  width: 300px;
+  flex-shrink: 0;
+  transform: rotate(-3deg);
+  background-color: rgba(0, 0, 0, 0.397);
+  margin: 30px;
+  position: relative;
+}
+
+.image {
+  width: 260px;
+  height: 330px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
+.row {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: o.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  background-color: rgb(68, 68, 99);
+  color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

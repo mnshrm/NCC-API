@@ -22,6 +22,7 @@ class loadingScreen extends HTMLElement {
         justify-content: center;
         align-items: center;
         background-color: black;
+        z-index:5;
       }
       
       #loading-text {
